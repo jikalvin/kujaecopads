@@ -11820,6 +11820,7 @@ select{-webkit-appearance: none;background: url(../image/dropimg.png) no-repeat;
   }
 }
 
+<<<<<<< HEAD
 @media (min-width: 992px) and (max-width: 1200px){
   .donation-part{padding: 0;}
 	.donation-part .payment-part .payment-type .form-check{margin: 20px 50px 20px 0;}
@@ -11871,4 +11872,26 @@ select{-webkit-appearance: none;background: url(../image/dropimg.png) no-repeat;
 	.paddingub.mob-py-50{padding: 50px 0;}
 	.paddingub.mob-py-30{padding: 50px 0 30px 0;}
   .about-company-part .about-img img{width: auto;height: auto;border-right: 10px solid #77c720;}
+=======
+#myCarousel .list-inline {
+  white-space:nowrap;
+  overflow-x:auto;
+}
+
+#myCarousel .carousel-indicators {
+  position: static;
+  left: initial;
+  width: initial;
+  margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+  width: initial;
+  height: initial;
+  text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+  opacity: 0.7;
+>>>>>>> d1bf604ed2244803d0c93a749e2b53f1543a3a94
 }
